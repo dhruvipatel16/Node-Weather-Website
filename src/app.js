@@ -101,21 +101,3 @@ app.get('*', (req, res) => {
 app.listen(port, () => {
     console.log('Server is up on port ' + port)
 })
-
-
-
-
-
-
-
-
-    // app.get('/help', (req, res) => {
-    //     res.send([{
-    //         name: 'Dhruvi',
-    //         age: 21
-    //     },
-    //     {
-    //         name: 'Nami',
-    //         age: 22
-    //     }])
-    // })
