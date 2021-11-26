@@ -1,4 +1,3 @@
-console.log('Client side javascript file is loaded.')
 //Client-side javascript code
  
 const weatherForm = document.querySelector('form')
@@ -27,15 +26,3 @@ weatherForm.addEventListener('submit', (e) => {
     })
 })
 })
-
-
-
-
-
-
-
-// fetch('https://puzzle.mead.io/puzzle').then((response) => {
-//     response.json().then((data) => {
-//         console.log(data)
-//     })
-// })

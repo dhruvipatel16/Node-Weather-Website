@@ -74,8 +74,6 @@ app.get('/products', (req, res) => {
             error: 'You must provide a search term'
         })
     }
-
-    console.log(req.query.search)
     res.send({
         products: []
     })
@@ -101,21 +99,3 @@ app.get('*', (req, res) => {
 app.listen(port, () => {
     console.log('Server is up on port ' + port)
 })
-
-
-
-
-
-
-
-
-    // app.get('/help', (req, res) => {
-    //     res.send([{
-    //         name: 'Dhruvi',
-    //         age: 21
-    //     },
-    //     {
-    //         name: 'Nami',
-    //         age: 22
-    //     }])
-    // })
